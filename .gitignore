@@ -5,7 +5,3 @@ node_modules/
 .DS_Store
 
 # Ignore built version
-dist/
-
-# Ignore ssh key the server writes
-.sshKey
