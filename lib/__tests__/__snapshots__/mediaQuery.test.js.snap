@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media query that doesn't match MediaQuery that matches using values 1`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 2`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 3`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 4`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 5`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 6`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 7`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 8`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 9`] = `null`;
+
+exports[`Media query that doesn't match MediaQuery that matches using values 10`] = `null`;
+
+exports[`Media query that match MediaQuery that matches using values 1`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 2`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 3`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 4`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 5`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 6`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 7`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 8`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 9`] = `
+<div>
+  I should be heree
+</div>
+`;
+
+exports[`Media query that match MediaQuery that matches using values 10`] = `
+<div>
+  I should be heree
+</div>
+`;
