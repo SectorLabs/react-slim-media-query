@@ -1,0 +1,15 @@
+ {
+    "presets": [
+        "minify",
+        ["@babel/preset-env", {
+            "modules": false,
+            "targets": {
+                "browsers": ["> 1%", "last 2 versions", "Firefox ESR", "chrome >= 40"],
+                "node": "8.7.0"
+            }
+        }],
+        "@babel/preset-react",
+        "@babel/preset-flow"
+    ],
+     "plugins": ["@babel/plugin-proposal-class-properties"]
+}
