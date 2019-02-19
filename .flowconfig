@@ -1,0 +1,14 @@
+[include]
+./src/**
+
+[libs]
+
+[lints]
+
+[options]
+esproposal.decorators=ignore
+module.system=haste
+module.file_ext=.js
+module.file_ext=.json
+
+module.name_mapper='react-slim-media-query' -> '<PROJECT_ROOT>/src'

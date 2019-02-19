@@ -1,0 +1,9 @@
+{
+    "printWidth": 100,
+    "parser": "babel",
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false
+}

@@ -1,0 +1,11 @@
+# Ignore installed node packages
+node_modules/
+
+# Ignore macos cache files
+.DS_Store
+
+# Ignore built version
+dist/
+
+# Ignore ssh key the server writes
+.sshKey
