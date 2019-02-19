@@ -1,6 +1,6 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import MediaQuery from '../lib';
+import { MediaQuery } from 'react-slim-media-query';
 
 const App = () => (
     <div>
