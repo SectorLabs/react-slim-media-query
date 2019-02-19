@@ -4,7 +4,10 @@
         "es6": true,
         "jest/globals": true
     },
-    "extends": "airbnb",
+    "extends": [
+      "airbnb",
+      "plugin:flowtype/recommended"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -18,7 +21,8 @@
     },
     "plugins": [
         "react",
-        "jest"
+        "jest",
+        "flowtype"
     ],
     "rules": {
         "indent": ["error", 4]

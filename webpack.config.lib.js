@@ -24,6 +24,7 @@ module.exports = {
                             'minify',
                             '@babel/preset-env',
                             '@babel/preset-react',
+                            '@babel/preset-flow',
                         ],
                     },
                 },

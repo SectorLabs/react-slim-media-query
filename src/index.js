@@ -1,7 +1,13 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import MediaQuery from 'react-slim-media-query';
+import MediaQuery from '../lib';
 
-const App = () => <strong>hello world</strong>;
+const App = () => (
+    <div>
+        <MediaQuery minWidth={1000}>
+            <span>Lonely boy</span>
+        </MediaQuery>
+    </div>
+);
 
 ReactDOM.render(<App />, document.getElementById('root'));
