@@ -7,6 +7,8 @@ module.exports = {
     output: {
         path: `${__dirname}/dist`,
         filename: 'react-slim-media-query.js',
+        library: '',
+        libraryTarget: 'commonjs',
     },
     devtool: false,
     externals: [nodeExternals({
