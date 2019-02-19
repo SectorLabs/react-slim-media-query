@@ -2,7 +2,7 @@
     "presets": [
         "minify",
         ["@babel/preset-env", {
-            "modules": false,
+            "modules": "commonjs",
             "targets": {
                 "browsers": ["> 1%", "last 2 versions", "Firefox ESR", "chrome >= 40"],
                 "node": "8.7.0"
