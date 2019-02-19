@@ -26,7 +26,8 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "json2mq": "^0.2.0"
+    "json2mq": "^0.2.0",
+    "react-autobind": "^1.0.6"
   },
   "peerDependencies": {
     "react": "^16.3.0",
