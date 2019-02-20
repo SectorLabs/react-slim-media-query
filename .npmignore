@@ -1,7 +1,7 @@
-.idea/*
+.idea/
 yarn-*
 
-./src/*
+src/
 
 serve.json
 
