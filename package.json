@@ -1,6 +1,6 @@
 {
   "name": "react-slim-media-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight react library to support media queries.",
   "main": "dist/react-slim-media-query.js",
   "repository": {
