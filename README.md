@@ -3,7 +3,7 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 [![npm version](https://badge.fury.io/js/react-slim-media-query.svg)](https://badge.fury.io/js/react-slim-media-query)
 
-A really lightweight CSS media query component for React.
+A really lightweight CSS media query component for React (1640B GZipped).
 
 
 ## Usage
@@ -39,7 +39,7 @@ const App = () => (
         </MediaQuery>
     </div>
 );
-);
+
 ```
 
 ## Server Side Rendering
@@ -56,7 +56,6 @@ const App = () => (
             <div>I should be visible when rendered on the server</div>
         </MediaQuery>
     </div>
-);
 );
 ```
 
