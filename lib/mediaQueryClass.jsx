@@ -33,30 +33,38 @@ type State = {
 };
 
 class MediaQuery extends React.Component<Props, State> {
-    mediaQueryList: MediaQueryList;
+    mediaQueryList: ?MediaQueryList = null;
+
+    static defaultProps = {
+        initialState: {
+            visible: false,
+        },
+    };
 
     constructor(props: Props) {
         super(props);
         autoBind(this);
 
-        const { query, initialState, children, ...mediaQuery } = props;
-        this.mediaQueryList = window.matchMedia(query || json2mq(mediaQuery));
-
         this.state = {
-            visible: this.mediaQueryList.matches,
+            visible: props.initialState.visible,
         };
     }
 
+    onChange(event) {
+        this.setState({ visible: event.matches });
+    }
+
     componentDidMount() {
+        const { query, initialState, children, ...mediaQuery } = this.props;
+
+        this.mediaQueryList = window.matchMedia(query || json2mq(mediaQuery));
         this.mediaQueryList.addListener(this.onChange);
+
+        this.onChange(this.mediaQueryList);
     }
 
     componentWillUnmount() {
         this.mediaQueryList.removeListener(this.onChange);
-    }
-
-    onChange(event: MediaQueryListEvent) {
-        this.setState({ visible: event.matches });
     }
 
     render() {
