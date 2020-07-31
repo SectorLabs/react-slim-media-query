@@ -5,4 +5,14 @@ src/
 
 serve.json
 
-__tests___
+lib/__tests__
+
+webpack.config.*
+
+.flowconfig
+.prettierrc
+.babelrc
+.eslintrc.json
+
+dist/index.html
+dist/react-slim-media-query-demo.*
